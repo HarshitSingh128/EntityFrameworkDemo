@@ -10,6 +10,12 @@ namespace EntityFrameworkDemo.Data
         {
             
         }
-        public DbSet<Employee> Employees { get; set; }
+          public DbSet<Employee> Employees { get; set; }
+        public DbSet<Student> Stud { get; set; }
+
+        public DbSet<Book> Bk { get; set; }
+
+        public DbSet<Product> pdt { get; set; }
+
     }
 }
